@@ -27,6 +27,6 @@ export async function generateMetadata({ params }) {
   
   console.log(id);
 return {
-  title: blogData[id].title,    
+  title: blogData[id - 1].title,    
 }
 }
